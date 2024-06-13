@@ -46,9 +46,6 @@ String cadena = "";
             presencial.calcularMatriculaPresencial();
           cadena = String.format("%s\n%s",cadena,presencial);
 
-            presencial.calcularMatriculaPresencial();
-            System.out.printf("%s\n", presencial);
-
             entrada.nextLine();
 
             System.out.println("Desea salir? (pulse S para salir)");
