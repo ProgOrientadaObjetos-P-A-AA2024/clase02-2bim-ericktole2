@@ -14,6 +14,7 @@ public class EstudianteDistancia extends Estudiante{
         numeroAsignaturas = numAsg;
         costoAsignatura = costoAsg;
     }
+    // podemos recivir , enviar y establecer variables 
     
     // 2.  Método establecerNumeroAsginaturas(numero: Real)
     public void establecerNumeroAsginaturas(int numero){

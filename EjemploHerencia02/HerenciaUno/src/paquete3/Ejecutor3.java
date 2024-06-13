@@ -27,7 +27,7 @@ public class Ejecutor3 {
        
         
         System.out.println(estudiante);
-                
+              
         
     }
 }
