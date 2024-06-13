@@ -24,8 +24,8 @@ public class Ejecutor2 {
         // Trabajo clases 16 junio 2022
         Scanner entrada = new Scanner(System.in);
         boolean bandera = true;
-        ArrayList<Estudiante> listaEstudiantes = new ArrayList<>();
-
+       
+String cadena = "";
         while (bandera) {
             System.out.println("Ingrese nombre");
             String n = entrada.nextLine();
@@ -44,7 +44,7 @@ public class Ejecutor2 {
                     ced, edad, creditos, costo);
 
             presencial.calcularMatriculaPresencial();
-            listaEstudiantes.add(presencial);
+          cadena = String.format("%s\n%s",cadena,presencial);
 
             presencial.calcularMatriculaPresencial();
             System.out.printf("%s\n", presencial);
@@ -58,9 +58,8 @@ public class Ejecutor2 {
             }
         }
 
-        System.out.println("Estudiantes ingresados:");
-        for (Estudiante estudiante : listaEstudiantes) {
-            System.out.println(estudiante);
+        System.out.println("Estudiantes ingresados:"); 
+        System.out.printf("%s\n", cadena);
         }
     }
-}
+
